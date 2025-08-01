@@ -61,7 +61,7 @@ CREATE TABLE equipo (
   FOREIGN KEY (categoria_id) REFERENCES categoria(id)
 );
 
--- tabla asinaciones master
+-- tabla asignaciones master
 CREATE TABLE asignaciones_master (
   id INT PRIMARY KEY AUTO_INCREMENT,
   fecha DATE NOT NULL,
